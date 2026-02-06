@@ -15,3 +15,13 @@ git branch -vv
 
 git push --set-upstream origin (name)
 - create and set-up upstream branch (where to push) to repository (name) on github.
+
+git fetch origin
+- list all branches recognized on github
+
+git branch --set-upstream-to=origin/(name of branch)
+- sets the push & pull of the current branch to push and pull from (name of branch) that already exists.
+
+git push origin HEAD:(name of branch) 
+- pushes from current branch to (name of branch) branch on git hub
+- git push -u origin Head:(name of branch) ....> this will keep track on this and save the push.
