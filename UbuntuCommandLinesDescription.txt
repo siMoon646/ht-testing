@@ -1,0 +1,14 @@
+git branch (name)
+- creates a branch with named (name)
+
+git branch 
+- list all branches
+
+git log --oneline
+- list a summerized log of commits and the branch pointers
+
+git remote -v 
+- shows all remotes and their URLs (where their fetch(pulls) and pushes go)
+
+git branch -vv
+- show current branch and upstream tracking branch
