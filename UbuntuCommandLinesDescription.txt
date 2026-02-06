@@ -12,3 +12,6 @@ git remote -v
 
 git branch -vv
 - show current branch and upstream tracking branch
+
+git push --set-upstream origin (name)
+- create and set-up upstream branch (where to push) to repository (name) on github.
